@@ -53,6 +53,7 @@ print(six)
 """
 
 average_number_rolled = (int(one) + int(two) + int(three) + int(four) + int(five) + int(six)) / number_of_rolls
+#print(average_number_rolled * number_of_rolls)
 print(average_number_rolled)
 
 # 8.7 - Simulate Events and Calculate Probabilities
@@ -79,5 +80,6 @@ for trial in range(num_rolls):
 
 avg_roll = total / num_rolls
 
+#print(total)
 print(f"The average result of {num_rolls} rolls is {avg_roll}")
     
